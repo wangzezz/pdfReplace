@@ -13,7 +13,7 @@ public class Main {
         String targetPath = "C:\\Users\\Administrator\\Desktop\\out.pdf";
         Map<String, String> map = new HashMap<String, String>();
         map.put("[$合同编号$]", "ZR-20181009-00000164");
-        map.put("[$姓名$]", "汪泽欣");
+        map.put("[$姓名$]", "TroubleA");
         map.put("[$签字日期$]", "2018/10/10 11:24:30");
         test(srcPath, targetPath, map);
     }
